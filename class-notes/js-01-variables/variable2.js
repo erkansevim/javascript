@@ -15,5 +15,16 @@ console.log(first);
     let second=45
 }
 
-console.log(first);
-console.log(second); //scope icinde tanimlandigi icin disaridan erisilemez
+
+
+const ad="erkan"
+const Soyad="sevim";
+const dogumTarihi=1989
+
+console.log(`àdim soyadim ${ad} ${Soyad}`);
+
+console.log("àdim soyadim" + " "+   ad+ " "  +Soyad)
+
+console.log(`${ad} ${Soyad} ${2024-dogumTarihi} yasindadir`);
+
+console.log(Boolean(0));
