@@ -26,3 +26,28 @@ function yasHesapla (isim, tarih) {
 }
 
 yasHesapla("erkan", 1989);
+
+//-----
+console.log(isEvenOdd(5));
+console.log(isEvenOdd(120));
+
+function isEvenOdd(sayi) {
+
+const sonuc= sayi %2==0 ? "cifttir" :"tektir"
+return sonuc
+    
+}
+
+//-----
+let toplam=0;
+function sumAll() {
+   for (let i = 0 ; i<arguments.length ; i++){
+    toplam=toplam+arguments[i];
+   }
+
+return toplam
+}
+
+alert (sumAll(22,55,48,25,1,2,3,56));
+
+//----------
